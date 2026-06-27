@@ -1,2 +1,2 @@
 Hey ! 
-My self Khushal  .... Data Analytics
+My self Khushal  .... Data Analyst
