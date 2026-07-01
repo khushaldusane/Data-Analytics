@@ -104,4 +104,24 @@ sent.reverse()
 print(sent)
 
 
+# Write a code that takes a list as input and returns a new list with duplicate elements removed. 
+# The order of the elements should be maintained in the new list.
+
+num=[1,5,4,2,9,4,1,5,7,7,1,4,3,1]
+newlist=[]
+for i in num:
+  if num.count(i)<2:
+    newlist.append(i)
+    newlist.sort()
+print(newlist)
+
+
+
+
+
+
+
+
+
+
 
