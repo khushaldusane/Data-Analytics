@@ -166,6 +166,19 @@ user_input=input(f"Enter the sentence: ")
 print(count_vowels(user_input))
 
 
+# Write a Python function that takes a list of integers as input and returns a 
+# new list that contains only the even numbers from the input list.
+
+def even_numbers(nums):
+  even_num=[]
+  for i in num:
+    if i%2==0:
+      even_num.append(i)
+  return even_num
+
+num=[1,2,3,4,5,6,8,4,12,14,15]
+print(even_numbers(num))
+
 
 
 
