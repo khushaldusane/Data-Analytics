@@ -149,6 +149,23 @@ common_ele_list=common_elements(l1,l2)
 print(common_ele_list)
 
 
+# Write a function called count_vowels that takes a string as input and returns the count of vowels (a, e, i, o, u) in the string
+
+def count_vowels(user_input):
+  vowels_list=[]
+  vowels=['a','e','i','o','u']
+
+  for i in user_input:
+    if i in vowels:
+      vowels_list.append(i)
+  total=len(vowels_list)
+  return total
+
+
+user_input=input(f"Enter the sentence: ")
+print(count_vowels(user_input))
+
+
 
 
 
