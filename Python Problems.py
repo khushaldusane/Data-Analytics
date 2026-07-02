@@ -180,6 +180,13 @@ num=[1,2,3,4,5,6,8,4,12,14,15]
 print(even_numbers(num))
 
 
+# Write a Python function that takes a string as input and returns the number of words in the string. 
+# Assume that words in the string are separated by spaces.
 
+def count_words(text):
+  words=text.split()
+  return len(words)
 
+text="My name is Khushal"
+print(count_words(text))
 
