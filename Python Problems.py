@@ -190,3 +190,17 @@ def count_words(text):
 text="My name is Khushal"
 print(count_words(text))
 
+# Write a Python function that takes a list of strings as input and 
+# returns a new list containing the lengths of the strings in the input list.
+
+def string_length(string):
+  string_len=[]
+  for i in string:
+    string_len.append(len(i))
+  return string_len
+
+
+string=["Hello","How","are","you"]
+print(string_length(string))
+
+
