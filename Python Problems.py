@@ -216,3 +216,19 @@ def odd_numbers(num):
 
 num=[1,5,4,7,6,2,45,95,74]
 print(odd_numbers(num))
+
+
+# Write a Python function called average_grade that takes a list of grades (integers) as input and returns the average grade. 
+# The average should be calculated as the sum of all grades divided by the total number of grades
+
+def average_grade(grades):
+  average=[]
+  sum=0
+  for i in grades:
+    sum+=i
+  avg=(sum/len(grades))
+  average.append(avg)
+  return average
+ 
+grades=[80, 90, 75, 85, 95]
+print(average_grade(grades))
