@@ -257,3 +257,23 @@ def is_palindrome(text):
 text=['Hello','How','are','you','radar']
 for i in text:
   print(is_palindrome(i))
+
+
+# Python Program to Check if a Number is Odd or Even.
+
+def even_odd(list1):
+  result=[]
+  for i in list1:
+    if i%2==0:
+      result.append((i,"Even"))
+    else:
+      result.append((i,"Odd"))
+  return result
+
+list1=[12,54,95,20,37]
+print(even_odd(list1))
+
+
+
+
+
