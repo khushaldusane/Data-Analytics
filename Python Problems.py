@@ -242,3 +242,18 @@ def find_max(nums):
 
 nums=[1,51,44,84,54,62,0]  
 print(find_max(nums))
+
+# Write a Python function to check if a given string is a palindrome.
+# Implement the function is_palindrome(s) that takes a string s as input and returns True if s is a palindrome, and False otherwise
+
+def is_palindrome(text):
+    if i==i[::-1]:
+      return True
+    else:
+      return False
+
+
+
+text=['Hello','How','are','you','radar']
+for i in text:
+  print(is_palindrome(i))
