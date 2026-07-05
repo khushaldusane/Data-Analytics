@@ -297,3 +297,14 @@ def leap_year(year):
 
 year=int(input("Enter the year to check if it is leap year or not : "))
 print(leap_year(year))
+
+
+# Write Python Program to Find the Sum of Natural Numbers.
+def natural_num_sum(num):
+  sum=0
+  for i in range(0,num+1):
+    sum+=i
+  return sum
+
+num=int(input("Enter the number till where you want sum : "))  
+print(natural_num_sum(num))
