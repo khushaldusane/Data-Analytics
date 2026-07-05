@@ -273,7 +273,15 @@ def even_odd(list1):
 list1=[12,54,95,20,37]
 print(even_odd(list1))
 
+# Write python program to find the area of a triangle when 3 side of trianle given.
 
+import numpy as np
+def triangle_area():
+  a=int(input("length of side a: "))
+  b=int(input("length of side b: "))
+  c=int(input("length of side c: "))
+  s=((a+b+c)/2)
+  Area=round(np.sqrt(s*(s-a)*(s-b)*(s-c)),2)
+  return Area
 
-
-
+print(triangle_area())
