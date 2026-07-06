@@ -328,3 +328,16 @@ def fizzbuzz(n):
 
 n=int(input("Enter the number : "))
 print(fizzbuzz(n))
+
+
+# Find second highest element in list.
+
+def second_highest():
+  n.sort()
+  num=n[-2]
+  return (num)
+
+n=[1,5,47,62,45,10,15]
+print(second_highest())
+
+
