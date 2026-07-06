@@ -308,3 +308,23 @@ def natural_num_sum(num):
 
 num=int(input("Enter the number till where you want sum : "))  
 print(natural_num_sum(num))
+
+
+# Print FizzBuzz if the integer is divided by 3 and 5, if divided by 3 and not 5, then print Fizz. 
+# If the number is divided by 5 but not by 3, then print Buzz, and if it is not divided by 3 and 5, then print this number.
+
+def fizzbuzz(n):
+  result=[]
+  if(n%3==0) and (n%5==0):
+    result.append("FizzBuzz")
+  elif(n%3==0) and (n%5!=0):
+    result.append("Fizz")
+  elif(n%3!=0) and (n%5==0):
+    result.append("Buzz")
+  else:
+    result.append(n)
+  return result
+
+
+n=int(input("Enter the number : "))
+print(fizzbuzz(n))
