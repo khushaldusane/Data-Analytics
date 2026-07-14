@@ -340,4 +340,10 @@ def second_highest():
 n=[1,5,47,62,45,10,15]
 print(second_highest())
 
-
+# Sum of rows
+import numpy as np
+arr = np.array([
+[2,4],[6,8]])
+print(arr.sum(axis=0))
+# Sum of columns
+print(arr.sum(axis=1))
